@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Filter Items Project">
+  <meta name="keywords" content="Basic,calculator,project">
+  <meta name="generator" content="Visual Studio Code">
+  <meta name="distribution" content="global">
+  <meta name="author" content="NyitiG">
+  <meta name="revised" content="NyitiG Világa, 2022/08/30">
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="assets/pic/favicon.ico" type="image/x-icon">
+  <title>Simple calculator</title>
+</head>
+<body class="">
+  <section id="calcSec" class="column">
+    <div id="fullPageContainer" class="column alignCenter justCenter">
+      <div id="calcContainer" class=" column boxShadow">
+        <div id="calcTime" class="row">
+          <span id="clock" class=""></span>
+        </div>
+        <div id="calcDisplay" class="column alignCenter">
+          <div id="switchesDayNight" class="row cursorPointer">
+            <img id="lightButton" class="svgSize" src="assets/pic/sunny-outline.svg" alt="">
+            <img src="assets/pic/moon-outline.svg" alt="" id="darkButton" class="svgSize light">
+          </div>
+          <div id="resultsContainer" class="column">
+            <h3 class="operation light">0</h3>
+            <h1 id="activOperation" class=" light">0</h1>
+          </div>
+        </div>
+        <div id="calcKeyboard" class="">
+          <div id="ac"></div>
+          <span id="cButton" class="light button">C</span>
+          <span id="backButton" class="light button">Back</span>
+          <span class="light number button">7</span>
+          <span class="light number button">8</span>
+          <span class="light number button">9</span>
+          <span class="column alignCenter justCenter light button"><img src="assets/pic/math-divide-svgrepo-com.svg" alt="" id="division" class="keyboardSvg"></span>
+          <span class="light number button">4</span>
+          <span class="light number button">5</span>
+          <span class="light number button">6</span>
+          <span class="column alignCenter justCenter light button"><img src="assets/pic/close-outline.svg" alt="" id="multiplication" class="keyboardSvg"></span>
+          <span class="light number button">1</span>
+          <span class="light number button">2</span>
+          <span class="light number button">3</span>
+          <span class="column alignCenter justCenter light button"><img src="assets/pic/close-outline.svg" alt="" id="addicion" class="keyboardSvg"></span>
+          <span class="light number button">0</span>
+          <span id="" class="column alignCenter justCenter light button equalButton"><img src="assets/pic/reorder-two-outline.svg" alt="" id="equals" class="keyboardSvg"></span>
+          <span class="column alignCenter justCenter light button"><img src="assets/pic/remove-outline.svg" alt="" id="subtraction" class="keyboardSvg"></span>
+        </div>
+      </div>
+    </div>  
+  </section#>
+  <script src="app.js"></script>
+</body>
+</html>
